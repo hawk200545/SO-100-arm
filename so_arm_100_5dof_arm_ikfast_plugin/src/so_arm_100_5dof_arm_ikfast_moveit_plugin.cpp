@@ -42,7 +42,7 @@
  */
 
 #include <rclcpp/rclcpp.hpp>
-#include <moveit/kinematics_base/kinematics_base.hpp>
+#include <moveit/kinematics_base/kinematics_base.h>
 #include <moveit/robot_state/robot_state.hpp>
 #include <Eigen/Geometry>
 #include <tf2_kdl/tf2_kdl.hpp>
