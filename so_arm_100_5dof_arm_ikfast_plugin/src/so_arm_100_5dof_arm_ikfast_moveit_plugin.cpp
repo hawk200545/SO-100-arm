@@ -43,11 +43,11 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/kinematics_base/kinematics_base.h>
-#include <moveit/robot_state/robot_state.hpp>
+#include <moveit/robot_state/robot_state.h>
 #include <Eigen/Geometry>
 #include <tf2_kdl/tf2_kdl.hpp>
 #include <tf2_eigen/tf2_eigen.hpp>
-#include <moveit/utils/logger.hpp>
+#include <moveit/utils/logger.h>
 #include <so_arm_100_5dof_arm_ikfast_plugin/ikfast_kinematics_parameters.hpp>
 
 using namespace moveit::core;
